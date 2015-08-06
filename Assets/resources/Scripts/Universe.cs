@@ -1,8 +1,10 @@
-﻿using UnityEngine;
+using UnityEngine;
 using System.Collections;
 
 public class Universe : MonoBehaviour {
 
+	public int playerOneScore = 0;
+	public int playerTwoScore = 0;
 	public bool key_Left = false;
 	public bool key_Right = false;
 	public bool key_Space = false;

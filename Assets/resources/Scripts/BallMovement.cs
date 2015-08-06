@@ -34,6 +34,11 @@ public class BallMovement : MonoBehaviour {
 		}
 	}
 
+	public void ResetPosition(){
+
+		transform.position = new Vector3 (0,0,0); 
+	}
+
 	void UpdateRaycastOrigins () {
 		ballN = new Vector3(transform.position.x, transform.position.y, transform.position.z + raySpacing);
 		ballS = new Vector3(transform.position.x, transform.position.y, transform.position.z - raySpacing);
